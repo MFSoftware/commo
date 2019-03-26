@@ -1,0 +1,3 @@
+C:/Users/Nikita/Documents/GitHub/Commo/source/lib/cmake-build-debug/CMakeFiles/commo.dir
+C:/Users/Nikita/Documents/GitHub/Commo/source/lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nikita/Documents/GitHub/Commo/source/lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
-project(commo C)
+project(Commo)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 14)
 
-add_library(commo SHARED library.c library.h)
+add_library(Commo SHARED library.cpp library.h src/tokenizer.cpp src/tokenizer.h src/token.cpp src/token.h src/charStream.cpp src/charStream.h src/preprocessor.cpp src/preprocessor.h)

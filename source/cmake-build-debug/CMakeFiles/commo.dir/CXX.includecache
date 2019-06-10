@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikita/CLionProjects/commo/main.cpp
+iostream
+-
+string
+-
+vector
+-
+src/tokenizer/token.h
+/home/nikita/CLionProjects/commo/src/tokenizer/token.h
+src/tokenizer/tokenizer.h
+/home/nikita/CLionProjects/commo/src/tokenizer/tokenizer.h
+src/parser/parser.h
+/home/nikita/CLionProjects/commo/src/parser/parser.h
+
+/home/nikita/CLionProjects/commo/src/parser/parser.h
+string
+-
+
+/home/nikita/CLionProjects/commo/src/tokenizer/token.h
+string
+-
+
+/home/nikita/CLionProjects/commo/src/tokenizer/tokenizer.h
+vector
+-
+token.h
+/home/nikita/CLionProjects/commo/src/tokenizer/token.h
+

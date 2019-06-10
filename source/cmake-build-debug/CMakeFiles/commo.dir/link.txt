@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/commo.dir/main.cpp.o CMakeFiles/commo.dir/src/tokenizer/token.cpp.o CMakeFiles/commo.dir/src/tokenizer/tokenizer.cpp.o CMakeFiles/commo.dir/src/parser/parser.cpp.o  -o commo 

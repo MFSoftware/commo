@@ -11,6 +11,7 @@ bool isOperator(char ch) {
         case '-':
         case '*':
         case '/':
+        case '%':
             return true;
         default:
             return false;
@@ -37,7 +38,7 @@ void Tokenizer::emptyNumberBufferAsLiteral() {
 }
 
 vector<Token> Tokenizer::tokenize(string str) {
-    str.erase(remove_if(str.begin(), str.end(), ::isspace), str.end()); //str.replace(/\s+/g, "");
+    str.erase(remove_if(str.begin(), str.end(), ::isspace), str.end());
     result = vector<Token>();
     numberBuffer = vector<char>();
     letterBuffer = vector<char>();

@@ -13,6 +13,8 @@ string
 -
 vector
 -
+cstring
+-
 src/tokenizer/token.h
 /home/nikita/CLionProjects/commo/src/tokenizer/token.h
 src/tokenizer/tokenizer.h
